@@ -1,9 +1,9 @@
-package com.spotitube.libraries.cqrs.api;
+package personal.wiebe.cqrs.api;
 
-import com.spotitube.libraries.cqrs.core.CommandHandlerBase;
-import com.spotitube.libraries.cqrs.core.QueryHandlerBase;
 import jakarta.enterprise.inject.Default;
 import jakarta.enterprise.inject.spi.CDI;
+import personal.wiebe.cqrs.core.CommandHandlerBase;
+import personal.wiebe.cqrs.core.QueryHandlerBase;
 
 import java.io.IOException;
 import java.sql.SQLException;

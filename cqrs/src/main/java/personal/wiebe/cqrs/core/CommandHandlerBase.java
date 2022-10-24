@@ -1,6 +1,6 @@
-package com.spotitube.libraries.cqrs.core;
+package personal.wiebe.cqrs.core;
 
-import com.spotitube.libraries.cqrs.api.ICommand;
+import personal.wiebe.cqrs.api.ICommand;
 
 /**
  * A base commandhandler, denotes that this class can handle ICommand objects.

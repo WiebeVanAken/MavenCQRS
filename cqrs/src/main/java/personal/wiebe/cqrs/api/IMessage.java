@@ -1,6 +1,6 @@
-package com.spotitube.libraries.cqrs.api;
+package personal.wiebe.cqrs.api;
 
-import com.spotitube.libraries.cqrs.core.CqrsHandlerBase;
+import personal.wiebe.cqrs.core.CqrsHandlerBase;
 
 /**
  * An interface to denote the implementing type is a CQRS 'message', handleable by a specific CqrsHandler.

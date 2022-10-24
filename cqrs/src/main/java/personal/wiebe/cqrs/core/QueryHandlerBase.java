@@ -1,6 +1,6 @@
-package com.spotitube.libraries.cqrs.core;
+package personal.wiebe.cqrs.core;
 
-import com.spotitube.libraries.cqrs.api.IQuery;
+import personal.wiebe.cqrs.api.IQuery;
 
 /**
  * A base queryhandler, denotes that this class can handle IQuery<T> objects.

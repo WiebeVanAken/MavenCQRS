@@ -1,8 +1,8 @@
-package com.spotitube.libraries.cqrs.core;
+package personal.wiebe.cqrs.core;
 
-import com.spotitube.libraries.cqrs.api.IConnectionFactory;
-import com.spotitube.libraries.cqrs.api.IMessage;
 import jakarta.inject.Inject;
+import personal.wiebe.cqrs.api.IConnectionFactory;
+import personal.wiebe.cqrs.api.IMessage;
 
 import java.io.IOException;
 import java.sql.Connection;

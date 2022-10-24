@@ -1,4 +1,4 @@
-package com.spotitube.libraries.cqrs.api;
+package personal.wiebe.cqrs.api;
 
 /**
  * An interface to denote the implementing type is an ICommand handleable by a CQRS command handler.

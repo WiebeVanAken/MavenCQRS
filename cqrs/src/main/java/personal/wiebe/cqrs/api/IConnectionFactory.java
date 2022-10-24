@@ -1,4 +1,4 @@
-package com.spotitube.libraries.cqrs.api;
+package personal.wiebe.cqrs.api;
 
 import java.sql.Connection;
 import java.sql.SQLException;
