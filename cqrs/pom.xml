@@ -6,7 +6,8 @@
 
     <groupId>personal.wiebe</groupId>
     <artifactId>cqrs</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -22,5 +23,13 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/WiebeVanAken/MavenCQRS</url>
+            <name>Github WiebeVanAken Apache Maven Packages</name>
+        </repository>
+    </distributionManagement>
 
 </project>
