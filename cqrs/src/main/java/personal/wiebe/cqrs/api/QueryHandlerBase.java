@@ -1,6 +1,7 @@
-package personal.wiebe.cqrs.core;
+package personal.wiebe.cqrs.api;
 
 import personal.wiebe.cqrs.api.IQuery;
+import personal.wiebe.cqrs.core.CqrsHandlerBase;
 
 /**
  * A base queryhandler, denotes that this class can handle IQuery<T> objects.

@@ -1,6 +1,7 @@
-package personal.wiebe.cqrs.core;
+package personal.wiebe.cqrs.api;
 
 import personal.wiebe.cqrs.api.ICommand;
+import personal.wiebe.cqrs.core.CqrsHandlerBase;
 
 /**
  * A base commandhandler, denotes that this class can handle ICommand objects.
