@@ -14,6 +14,28 @@ MavenCQRS requires JDK17, and is not available through the Maven Central Reposit
   <version>1.1</version>
 </dependency> 
 ```
+Add the following blocks of XML to the Maven settings.xml file.
+```xml
+<activeProfiles>
+    <activeProfile>github-mavencqrs</activeProfile>
+</activeProfiles>
+
+<profiles>
+    <profile>
+        <id>github-mavencqrs</id>
+        <repositories>
+            <repository>
+                <id>github</id>
+                <url>https://WiebeVanAken:&#103;hp_TNxZ2CUs3geBBAGI9jbYwfuWHBbyQB41Ckp6@maven.pkg.github.com/WiebeVanAken/MavenCQRS</url>
+                <name>Github WiebeVanAken Apache Maven Packages</name>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+            </repository>
+        </repositories>
+    </profile>
+</profiles>
+```
 
 ## Example Code Usage
 
